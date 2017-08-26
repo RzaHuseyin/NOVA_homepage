@@ -1,0 +1,62 @@
+#header{
+	margin-top:50px;
+	.wrapper{
+		.row{
+			.col-md-2{
+				.row{
+					a{
+						img{
+							//margin-top: 5px;
+						}
+					}
+				}
+			}
+			.col-md-4{
+				.row{
+					input{
+						float: left;
+						width: 92.5%;
+						padding-right: 45px;
+						visibility: hidden;
+						margin-top: -5px;
+					}
+					input[type='text']{
+						text-align:right;
+					}
+					div{
+						position: relative;
+						float: right;
+					    cursor: pointer;
+						span{
+							display: block;
+							font-size: 16px;
+ 							color: rgb(102, 102, 102);
+							&:nth-child(2) , &:nth-child(3){
+								display: none;
+								top: 22%;
+								padding-top: 22px;
+								position: absolute;
+								z-index: 10;
+								&:hover{
+									color: #8ac6fd !important;
+								}
+							}
+							 &:nth-child(3){
+							 	top: 150%;
+							 	padding-top: 19px;
+							 }
+						}
+					}
+					i{
+						padding-top: 4px;
+						margin-left: -23px;
+					    cursor: pointer;
+						&:hover{
+							color: #6b338d;
+						}
+					}
+				}
+			}
+		}
+	}		
+}

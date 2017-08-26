@@ -1,0 +1,70 @@
+#projects{
+	.wrapper{
+		.row{
+			.col-md-12{
+				.padding100{
+					text-align: center;
+					h2{
+						margin-top: 2px;
+					}
+				}
+			}
+			.col-md-4{
+				.row{
+					div{
+						padding-right: 20px;
+						padding-top: 45px;
+					}
+				}
+			}
+			.col-md-8{
+				.row{
+					>div{
+						padding-top: 40px;
+						padding-left: 36px;
+						h3{
+							padding: 0;
+							margin: 0 0 0 0;
+						}
+						>div{
+							margin-top: 16px;
+							p{
+							font-size: 16px;
+							color: rgb(153, 153, 153);
+						}
+						}
+						button{
+							border: none;
+							background-color: #6098e4;
+							color: white;
+							border-radius: 3px;
+							padding: 10px 26px;
+							font-size: 16px;
+							margin-top: 21px;
+							text-transform: uppercase;
+							&:hover{
+								background-color: #7db7ec;
+							}
+						}
+						a{
+							&:last-child{
+								text-transform: uppercase;
+								margin-left: 17px;
+								font-size: 16px;
+								color: rgb(102, 102, 102);
+								&:hover{
+									text-decoration: none;
+									color: #6b9fe6;
+								}
+								i{
+									margin-right: 8px;
+								}
+							}
+						}
+					}
+				}
+			}
+		}
+	}
+}
+
